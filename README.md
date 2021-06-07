@@ -3,7 +3,7 @@ Reverse shell generator
 
 **Credits to JB!**
 
-##usage
+## usage
 
 ```rshellgen.sh <IP> <PORT>```
 
