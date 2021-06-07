@@ -1,6 +1,7 @@
 # Revers shell generator
 Reverse shell generator
-Credits to JB!
+
+**Credits to JB!**
 
 ##usage
 
