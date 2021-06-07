@@ -1,5 +1,6 @@
 # Revers shell generator
 Reverse shell generator
+Credits to JB!
 
 ##usage
 
